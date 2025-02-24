@@ -16,7 +16,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <div>
-          my name is HELIUS DEV {name}
+          my name is HELIUS DEV this is first change {name}
         </div>
         <button onClick={()=>{btn("parvez alam "),router.push("/login")} }> this is btn</button>
       </main>
