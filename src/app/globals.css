@@ -40,3 +40,22 @@ a {
     color-scheme: dark;
   }
 }
+
+.main_header {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin: 0px;
+  padding: 4px;
+  justify-content:space-between;
+  height: fit-content;
+  background-color: #c5c5c5;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-right: 10px;
+  justify-content:center
+}

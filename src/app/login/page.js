@@ -7,7 +7,7 @@ export default function login(params) {
     return (
         <div>
             this is login page
-            <button onClick={()=>router.push("/")}> go to login page</button>
+            <button onClick={()=>router.push("/")}> go to login pages</button>
         </div>
     )
 }
