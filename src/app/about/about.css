@@ -1,8 +1,22 @@
-
-.about{
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
+    margin: 0 15px;
+}
+
+p {
+    display: block;
+    margin: 0 27px;
+    font-family: monospace;
+    text-align: justify;
+    font-size: 25px;
+}
+
+p span {
+    font-weight: bold;
+    color: #1b0d0d;
+    
 }
