@@ -17,7 +17,7 @@ export default function MainPageNav() {
             <ul>
                 {
                     Object.keys(navitionList).map((key, index) => {
-                        return <Link href={navitionList[key]} key={index}>{key}</Link>
+                        return <Link style={{ border: "1px white solid", padding: "10px" }} href={navitionList[key]} key={index}>{key}</Link>
                     })
                 }
 

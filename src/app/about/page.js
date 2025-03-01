@@ -2,7 +2,7 @@ import Link from "next/link";
 import "./about.css";
 export default function about(params) {
     return (
-        <div className="about">
+        <div className="about_page_container">
             <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "1rem" }}>
                 <Link href="/about">about</Link>
                 <Link href="/">Your feedback</Link>
